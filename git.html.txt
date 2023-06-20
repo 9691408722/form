@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+        <h1>Online Job Application form</h1>
+        <label for="">Name-</label>
+        <input type="text" placeholder="First Name" required>           <input type="text" placeholder="Last Name" required><br><br>
+
+        <label for="">Father's Name-</label>
+        <input type="text" placeholder="Father's Full Name" required><br><br>
+
+        <label for="">Mother's Name-</label>
+        <input type="text" placeholder="Mother Full Name" required><br><br>
+
+        <label for="">Gender-</label>
+        Male: <input type="radio" name="Gender-">
+        Female: <input type="radio" name="Gender-">
+        Other:  <input type="radio" name="Gender-"><br><br>
+
+        <label for="">Date of Birth</label>
+        <input type="date"><br><br>
+
+        <label for="">Email:</label>
+        <input type="email" placeholder="enter your email" required><br><br>
+
+        <label for="">Mobile No:</label>
+        <input type="number" placeholder="enter mobile no." required><br><br>
+
+        <label for="">Marital Status</label>
+Yes: <input type="radio" name="Marital Status">
+No:  <input type="radio" name="Marital Status"><br><br>
+
+<label for="">Are you eligible</label>
+Yes:  <input type="radio" name="Are you eligible">
+No:   <input type="radio" name="Are you eligible"><br><br>
+
+
+        <label for="">Selete State</label>
+        <select name="" id="">
+            <option value="">MP</option>
+            <option value="">UP</option>
+            <option value="">Bihar</option>
+            <option value="">Maharastra</option>
+            <option value="">Assam</option>
+            <option value="">Tamil</option>
+</select><br><br>
+
+<label for="">Education</label>
+<select name="" id="">
+    <option value="">BE</option>
+    <option value="">MBA</option>
+    <option value="">MSC</option>
+    <option value="">MCA</option>
+    <option value="">BCA</option>
+    <option value=""">BSC</option>
+</select><br><br>
+
+<label for="">Applied Position</label>
+<select name="" id="">
+    <option value="">Software developer</option>
+    <option value="">Front-End developer</option>
+    <option value="">Backend developer</option>
+    <option value="">HR</option>
+    <option value="">Product Manager</option>
+</select>
+<br><br>
+
+<label for="">Preferred Interview Date</label>
+<input type="date"><br><br>
+
+<label for="">Cover Letter</label>
+<br>
+<textarea name="" id="" cols="40" rows="15" required></textarea>
+<br><br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>
